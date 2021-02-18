@@ -13,10 +13,10 @@ however each plant requires a different mix of color spectrum, and expects a cer
 - ensure that the values lie within the per-plant intensity range
 
 # Tech stack used:
-- react
+- React
 - HTML, CSS
-- stenciljs
-- data is retrieved from endpoint via REST (https://dev.api.agrilution.com/plantLights.json)
+- Stenciljs
+- Data is retrieved from endpoint via REST (https://dev.api.agrilution.com/plantLights.json)
 
 ## Getting Started:
 
