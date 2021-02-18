@@ -1,5 +1,5 @@
 # Description:
-Your coding task is to create an UI for regular users who will use it to operate a part of Agrilution Systems' Plantcube.
+This coding task creates an UI for regular users who will use it to operate a part of Agrilution Systems' Plantcube.
 Our product includes a special LED allowing to adjust the color spectrum of the light individually. The various color types have certain effects on the plants,
 however each plant requires a different mix of color spectrum, and expects a certain min and max range on the spectrum intensity. The colors are:
 * blue:	Ensures healthy roots, strong stems, and healthy - bigger- leafs.
@@ -7,20 +7,16 @@ however each plant requires a different mix of color spectrum, and expects a cer
 * red: Essential for flowering or very weak stage in plants
 * far-red: Impacts the height grow of the plant. Plant is potentially getting bigger with weaker stems when far-red value is higher.
 
-# Your task is to implement an UI for users, allowing them to:
+# This task implements an UI for users, allowing them to:
 - select a plant
 - guide the user through the effects of the different colors
 - ensure that the values lie within the per-plant intensity range
 
-# Requirements:
+# Techn stack used:
+- react
+- HTML, CSS
 - stenciljs
-- data must be retrieved from endpoint via REST (https://dev.api.agrilution.com/plantLights.json)
-- use these descriptions to provide to the user about the effects of different light spectrum on the plants
-- develop by using stencil to create the necessary components, according to your perspective
-
-# Bonus points for:
-- creative UIs
-- e2e tests
+- data is retrieved from endpoint via REST (https://dev.api.agrilution.com/plantLights.json)
 
 ## Getting Started:
 
